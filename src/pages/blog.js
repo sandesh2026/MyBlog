@@ -34,8 +34,9 @@ class BlogIndexRoute extends React.Component {
               height: rhythm(2),
             }}
           />
-          Blog written by Sandesh Shetty who lives
-          and works in Bangalore building useful things. I also{" "}
+          Blog written by{" "}
+          <strong>{this.props.data.site.siteMetadata.author}</strong> who lives
+          and works in San Francisco building useful things.I also{" "}
           <a href="https://www.gatsbyjs.org/contributors/kyle-mathews/">
             blog at gatsbyjs.org
           </a>{" "}
