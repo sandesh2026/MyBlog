@@ -3,8 +3,8 @@ const redish = `#c5484d`
 module.exports = {
   siteMetadata: {
     title: "Bricolage",
-    author: "Kyle Mathews",
-    homeCity: "San Francisco",
+    author: "Sandesh Shetty",
+    homeCity: "Bangalore",
   },
   plugins: [
     {
